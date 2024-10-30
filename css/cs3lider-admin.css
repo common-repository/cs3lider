@@ -1,0 +1,41 @@
+
+.cs3lider-admin__slide {
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: calc(52rem + 4px);
+}
+
+.cs3lider-admin__slide + .cs3lider-admin__slide {
+    margin-top: 1rem;
+}
+
+.cs3lider-admin__slide input[type=text] {
+    width:50em;
+}
+
+.cs3lider-admin__slide img {
+    width:50rem;
+}
+
+.cs3lider-message-error {
+    background: #ffdbdb none repeat scroll 0 0;
+    border: 1px solid #ffb4b4;
+    color: #ac2c2c;
+    display: block;
+    font-family: Open Sans,"Helvetica","Arial";
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 5px;
+}
+.cs3lider-message-success {
+    background: #d8f7c1;
+    border: 1px solid #a1d47b;
+    color: #527638;
+    display: block;
+    font-family: Open Sans,"Helvetica","Arial";
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 5px;
+}
